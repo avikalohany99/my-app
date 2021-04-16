@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vue App</title>
+        <script src ="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <link rel="stylesheet" href="http://davidtkatz.com/public_css/vue.css">
+    </head>
+    <body>
+        <div id="app #1">
+            <div>This a large main division, with <span>a small bit</span> of spanned text!</div>
+        </div>
+        <script>
+            var app = new Vue({
+              el: '#app',
+              data: {
+                message: 'You loaded this page on ' + new Date().toLocaleString()
+                }
+            })
+        </script>
+</body>
+</html>
